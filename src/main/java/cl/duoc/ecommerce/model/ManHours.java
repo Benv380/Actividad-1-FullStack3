@@ -14,4 +14,17 @@ public class ManHours {
     private String workerName;
     private String description;
     private int price;
+
+    @Override
+    public String toString() {
+        return "ManHours{" +
+                "hours=" + hours +
+                ", productName='" + productName + '\'' +
+                ", workerName='" + workerName + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
+
+

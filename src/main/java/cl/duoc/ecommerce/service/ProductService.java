@@ -22,6 +22,12 @@ public class ProductService {
         return product.findAll();
     }
 
+
+    public void addProduct(ManHours newProduct) {
+        product.save(newProduct);
+    }
+    
+
 }
 
 

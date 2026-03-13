@@ -2,8 +2,8 @@
     {
         "id": 1,
         "hours": 10,
-        "productname": "Producto 1",
-        "workername": "Juan Pérez",
+        "productName": "Producto 1",
+        "workerName": "Juan Pérez",
         "description": "Descripción del producto 1",
         "price": 19.99
     }
